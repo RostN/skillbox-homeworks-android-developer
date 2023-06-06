@@ -1,4 +1,4 @@
-<h1>Задание №1 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m1_hello_world">m1_hello_world</a>)</h1>
+<h1>Задание №1 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m1_hello_world">m1_hello_world</a>)</h1>
 <H2>Цель задания</h2>
 Закрепить знания по текстовым полям и кнопкам. 
 <h3> Что нужно сделать</h3>
@@ -15,7 +15,7 @@
 </ul>
 
 
-<h1>Задание №2 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m2_layout">m2_layout</a>)</h1>
+<h1>Задание №2 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m2_layout">m2_layout</a>)</h1>
 <h2>Цель работы</h2>
 Потренироваться применять знания по основным ViewGroup.
 <br>
@@ -24,7 +24,7 @@
 Создайте CustomView по примерному шаблону какого-либо поста в соцсети (смотрите картинку), используя знания о ViewGroup.
 
 
-<h1>Задание №3 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m3_components">m3_components</a>) </h1>
+<h1>Задание №3 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m3_components">m3_components</a>) </h1>
 <h2> Цель домашнего задания </h2>
 Научиться применять различные базовые компоненты пользовательского интерфейса. Создать приложение таймер обратного отсчёта, используя TextView, ProgressBar, Button, SeekBar/Slider.
 <h3>Что нужно сделать</h3>
@@ -38,12 +38,12 @@
 <h3>Советы и рекомендации</h3>
 Чётко следуйте плану. Начать лучше с ресурсов проекта и вёрстки.
 <br><br>
-Всё что необходимо знать для реализации таймера, было рассмотрено в лекциях модуля. Информацию про SeekBar/Slider можно найти в интернете, например: <a href="https://material.io/components/sliders/android">Sliders</a> или <a href="https://github.com/material-components/material-components-android/blob/master/docs/components/Slider.md">более подробный материал о Slider в GitHub.</a>
+Всё что необходимо знать для реализации таймера, было рассмотрено в лекциях модуля. Информацию про SeekBar/Slider можно найти в интернете, например: <a href="https://material.io/components/sliders/android">Sliders</a> или <a href="https://github.com/material-components/material-components-android/blob/main/docs/components/Slider.md">более подробный материал о Slider в GitHub.</a>
 Для реализации таймера понадобится цикл, в котором нужно каждую секунду перерисовывать UI. Не забудьте, что главный поток в Android нельзя блокировать, но в то же время нельзя менять UI из других потоков. Самым простым способом будет использование корутин с Main диспетчером и метода delay, который не блокирует поток.
 После старта таймера некоторые компоненты лучше деактивировать, чтобы пользователь не мог нарушить работу программы.
 
 
-<h1> Задание №4 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m4_constraint">m4_constraint</a>) </h1>
+<h1> Задание №4 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m4_constraint">m4_constraint</a>) </h1>
 <h2> Цель работы </h2>
 Применить знания по верстке с помощью ConstraintLayout для создания типового макета мобильного приложения.
 <h3>Что нужно сделать</h3>
@@ -58,7 +58,7 @@
 <li>TextView «Исполнитель» и «Наименование композиции» выровнены по горизонтали относительно экрана.</li></ul>
 
 
-<h1> Задание №5 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m5_quiz_resources">m5_quiz_resources</a>) </h1>
+<h1> Задание №5 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m5_quiz_resources">m5_quiz_resources</a>) </h1>
 <h2> Цель практической работы</h2>
 Применить знания:
 <ui>
@@ -84,7 +84,7 @@
 </ul>
 
 
-<h1> Задание №6 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m7_quiz_fragments">m7_quiz_fragments</a>) </h1>
+<h1> Задание №6 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m7_quiz_fragments">m7_quiz_fragments</a>) </h1>
 <h2>Цели работы </h2>
 <li>Применить знания о работе с фрагментами и библиотекой AndroidX Navigation.
 <li>Потренироваться в проектировании навигации по приложению.
@@ -131,7 +131,7 @@
 <li><a href="https://developer.android.com/guide/navigation/navigation-navigate#back-stack">Работа с backstack’om фрагментов.
   
   
-<h1> Задание №7 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m8_quiz_animation">m8_quiz_animation</a>) </h1>
+<h1> Задание №7 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m8_quiz_animation">m8_quiz_animation</a>) </h1>
 <h2> Цель работы</h2>
 Потренировать знания:
 <li>по созданию анимаций между компонентами;
@@ -152,7 +152,7 @@
 <li><a href="https://lottiefiles.com/featured">Готовые анимации для библиотеки Lottie.
 
   
-<h1> Задание №8 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m9_quiz_localization">m9_quiz_localization</a>) </h1>
+<h1> Задание №8 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m9_quiz_localization">m9_quiz_localization</a>) </h1>
 <h2> Цели практической работы</h2>
 Применить знания:
 <li>по переводу приложения на русский и английский языки;
@@ -170,7 +170,7 @@
   </ol>
 
 
-<h1> Задание №9 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m10_timer_life_cycle">m10_timer_life_cycle</a>) </h1>
+<h1> Задание №9 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m10_timer_life_cycle">m10_timer_life_cycle</a>) </h1>
 <h2>Цель практической работы </h2>
 
 Применить знания по жизненному циклу приложения и сохранению состояния при смене конфигурации.
@@ -183,7 +183,7 @@
 </ol>
 
 
-<h1> Задание №10 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m11_timer_data_storage">m11_timer_data_storage</a>) </h1>
+<h1> Задание №10 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m11_timer_data_storage">m11_timer_data_storage</a>) </h1>
 <h2>Цели практической работы </h2>
 Применить знания:
 <li>по сохранению данных в памяти устройства;
@@ -209,7 +209,7 @@
 </ol>
 
 
-<h1> Задание №11 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m12_mvvm">m12_mvvm</a>) </h1>
+<h1> Задание №11 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m12_mvvm">m12_mvvm</a>) </h1>
 <h2> Цели практической работы</h2>
 Применить знания по архитектуре MVVM, отработать сохранение и изменение состояния экрана через ViewModel.
 <h3>Что нужно сделать</h3>
@@ -222,7 +222,7 @@
 <li>Убедитесь, что после того, как поиск завершён, прогресс исчезает и отображается текст «По запросу <текст запроса> ничего не найдено».</ol>
 
 
-<h1> Задание №12 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m14_retrofit">m14_retrofit</a>) </h1>
+<h1> Задание №12 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m14_retrofit">m14_retrofit</a>) </h1>
 <h2>Цели практической работы </h2>
 <li>Применить знания по работе с сетью в Android.
 <li>Поработать с REST API, используя библиотеку Retrofit.
@@ -240,7 +240,7 @@ Cоздать приложение для загрузки и отображен
   </ol>
 
 
-<h1> Задание №13 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m15_room">m15_room</a>) </h1>
+<h1> Задание №13 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m15_room">m15_room</a>) </h1>
 <h2>Цель практической работы </h2>
 Применить знания по БД, SQL и Room.
 <h3>Что нужно сделать</h3>
@@ -258,7 +258,7 @@ Cоздать приложение для загрузки и отображен
 <li><a href="https://stackoverflow.com/questions/1751301/regex-match-entire-words-only">Для валидации вводимой пользователем последовательности можно воспользоваться регулярным выражением
 
   
-<h1> Задание №14 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m16_architecture">m16_architecture</a>) (Hilt)</h1>
+<h1> Задание №14 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m16_architecture">m16_architecture</a>) (Hilt)</h1>
 <h2> Цель практической работы</h2>
 Применить принципы чистой архитектуры при разработке реального Android-приложения.
 <h3>Что нужно сделать</h3>
@@ -283,7 +283,7 @@ Cоздать приложение для загрузки и отображен
 </ol>
 
 
-<h1> Задание №15 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m17_recyclerview">m17_recyclerview</a>) </h1>
+<h1> Задание №15 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m17_recyclerview">m17_recyclerview</a>) </h1>
 <h2> Цели практической работы</h2>
 Потренироваться работать со списками.
 <h3>Что нужно сделать</h3>
@@ -327,7 +327,7 @@ Cоздать приложение для загрузки и отображен
 Помните, по умолчанию Paging Library загружает три страницы для плавности прокрутки. Для индикации того, что загрузка идёт постранично, можно использовать функцию delay(2000) в репозитории.
 
 
-<h1> Задание №16 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m18_permissions">m18_permissions</a>) </h1>
+<h1> Задание №16 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m18_permissions">m18_permissions</a>) </h1>
 <h2> Цель практической работы</h2>
 Применить знания по Permissions и научиться работать с камерой.
 <h3>Что нужно сделать</h3>
@@ -346,7 +346,7 @@ Cоздать приложение для загрузки и отображен
 <li>Не забудьте указать в Manifest необходимые permissions и запросить у пользователя разрешения, используя ResultAPI.
 
   
-<h1> Задание №17 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m19_location">m19_location</a>) </h1>
+<h1> Задание №17 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m19_location">m19_location</a>) </h1>
 <h2> Цель практической работы</h2>
 Применить знания по Location и научиться работать с картой.
 <h3>Что нужно сделать</h3>
@@ -360,7 +360,7 @@ Cоздать приложение для загрузки и отображен
 </ol>
 
 
-<h1> Задание №18 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/m20_firebase">m20_firebase</a>) </h1>
+<h1> Задание №18 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m20_firebase">m20_firebase</a>) </h1>
 <h2>Цели практической работы  </h2>
 <li>Применить знания о работе с Firebase к проекту.
 <li>Закрепить на практике принципы работы с сервисом Crashlytics и уведомлениями, сообщениями от сервиса Firebase.
@@ -398,7 +398,7 @@ Cоздать приложение для загрузки и отображен
   </ol>
 
 
-<h1> Задание №19 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/views_and_animations">views_and_animations</a>) </h1>
+<h1> Задание №19 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/views_and_animations">views_and_animations</a>) </h1>
 <h2> Цель домашнего задания</h2>
 Научиться разрабатывать собственные View.
 <h3>Что нужно сделать</h3>
@@ -411,7 +411,7 @@ Cоздать приложение для загрузки и отображен
 <li>Сброс задаёт значение, равное 0, и ставит виджет на паузу.
 
 
-<h1> Задание №20 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/recyclerview_advanced">recyclerview_advanced</a>) </h1>
+<h1> Задание №20 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/recyclerview_advanced">recyclerview_advanced</a>) </h1>
 <h2> Цель домашнего задания</h2>
 Научиться работать с пагинацией в RecyclerView.
 Что нужно сделать
@@ -425,7 +425,7 @@ Cоздать приложение для загрузки и отображен
 <li>Codelab от Google для пагинации.
 
 
-<h1> Задание №21 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/jetpack_compose">jetpack_compose</a>) </h1>
+<h1> Задание №21 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/jetpack_compose">jetpack_compose</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Освоить работу с Jetpack Compose и потренироваться с новым вариантом пагинации.
 <h3>Что нужно сделать</h3>
@@ -447,7 +447,7 @@ Cоздать приложение для загрузки и отображен
   <li><a href="https://developer.android.com/codelabs/jetpack-compose-state#0">— Использование состояний.</ol></a>
 
 
-<h1> Задание №22 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/dependency_injection">dependency_injection</a>) </h1>
+<h1> Задание №22 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/dependency_injection">dependency_injection</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Освоить работу с Dagger и Koin.
 <h3>Что нужно сделать</h3>
@@ -476,7 +476,7 @@ Cоздать приложение для загрузки и отображен
 <li><a href="https://youtu.be/ZZ_qek0hGkM">Хорошее последовательное описание использования DI на примере Dagger.</a>
 
 
-<h1> Задание №23 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/background_works">background_works</a>) </h1>
+<h1> Задание №23 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/background_works">background_works</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Научиться запускать и тестировать задачи, выполняемые в фоне.
 <h3>Что нужно сделать</h3>
@@ -486,7 +486,7 @@ Cоздать приложение для загрузки и отображен
 <li>В расчётное время утра устройство должно издать звук будильника.
 
   
-<h1> Задание №24 (<a href="https://github.com/RostN/skillbox-homeworks/tree/master/presentation_patterns">presentation_patterns</a>) </h1>
+<h1> Задание №24 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/presentation_patterns">presentation_patterns</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Реализовать приложение с помощью MVVM-архитектуры.
 <h3>Что нужно сделать</h3>
