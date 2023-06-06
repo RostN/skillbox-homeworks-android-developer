@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW11</string>
+    <string name="searchLine">Enter your request</string>
+    <string name="searchButton">Search</string>
+    <string name="resultLineStart">We will try to find everything</string>
+    <string name="resultLine">Nothing found for your request:&#160;</string>
+</resources>

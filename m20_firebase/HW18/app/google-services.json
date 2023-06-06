@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1017425662480",
+    "project_id": "ultimate-opus-381603",
+    "storage_bucket": "ultimate-opus-381603.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017425662480:android:73e4fc32a8cc381ea43095",
+        "android_client_info": {
+          "package_name": "com.example.hw18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017425662480-ufilp6kak979ajknho5ieq14snjh4kbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Q0HYnUwnf6D1FeK0RJZAfJ0_E6G_bU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017425662480-ufilp6kak979ajknho5ieq14snjh4kbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

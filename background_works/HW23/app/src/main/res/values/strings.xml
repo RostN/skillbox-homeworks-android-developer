@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HW23</string>
+    <string name="title_sunrise">Sunrise at your location, will be at:</string>
+    <string name="coordinates">0.0 0.0</string>
+    <string name="title_coordinates">Your coordinates(near):</string>
+    <string name="btn_text">Set alarm</string>
+    <string name="mask_time">XX:XX:XX</string>
+    <string name="title_enter_time">Enter time, when start alarm after sunrise</string>
+    <string name="title_hour">Hours</string>
+    <string name="title_minutes">Minutes</string>
+    <string name="text_alarm">Alarm will start at</string>
+
+</resources>

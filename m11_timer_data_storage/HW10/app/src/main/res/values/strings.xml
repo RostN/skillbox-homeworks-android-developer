@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW10</string>
+    <string name="save_button">Save</string>
+    <string name="clear_button">Clear</string>
+    <string name="inputText">Enter text</string>
+    <string name="exportText"> </string>
+</resources>

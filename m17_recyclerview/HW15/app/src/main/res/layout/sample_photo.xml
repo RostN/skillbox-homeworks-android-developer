@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/Pic"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:src="@color/purple_200"
+        app:layout_constraintDimensionRatio="4:3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Date"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/cameraName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Pic"
+        app:layout_constraintTop_toTopOf="@id/Pic" />
+
+
+    <TextView
+        android:id="@+id/cameraName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Camera-Name"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/cameraFullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Pic"
+        app:layout_constraintTop_toBottomOf="@id/date" />
+
+    <TextView
+        android:id="@+id/cameraFullName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="Camera-Full-Name"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/Pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Pic"
+        app:layout_constraintTop_toBottomOf="@id/cameraName" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

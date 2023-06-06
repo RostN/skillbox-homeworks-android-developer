@@ -1,0 +1,22 @@
+<resources>
+    <!-- Titles -->
+    <string name="app_name">QUIZapp-HW8</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="first_fragment_label">Question</string>
+    <string name="second_fragment_label">Result</string>
+
+    <!-- Buttons -->
+    <string name="button_start">Start</string>
+    <string name="next">Send</string>
+    <string name="previous">Back</string>
+    <string name="again">Start again</string>
+    <string name="birthday">Date of birth</string>
+
+    <!-- Texts -->
+    <string name="hello_first_fragment">Question text</string>
+    <string name="resultText">Result text</string>
+    <string name="wait_user_answer">Waiting for your answer</string>
+    <string name="birthdayText">Date of birth: </string>
+    <string name="enterBirthDay">Enter your birth</string>
+
+</resources>

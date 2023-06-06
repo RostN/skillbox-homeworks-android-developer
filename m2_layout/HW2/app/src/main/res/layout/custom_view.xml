@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/blackBox"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/blueBox"
+        android:layout_width="500dp"
+        android:layout_height="1300dp"
+        android:layout_below="@id/blackBox"
+        android:layout_margin="16dp"
+        android:background="@color/purple_700" />
+
+    <TextView
+        android:id="@+id/firstTetLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_toRightOf="@id/blackBox"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="Верхняя строчка" />
+
+    <TextView
+        android:id="@+id/secondTextLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstTetLine"
+        android:layout_margin="16dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:layout_toRightOf="@id/blackBox"
+        android:text="Нижняя строчка" />
+
+
+</RelativeLayout>

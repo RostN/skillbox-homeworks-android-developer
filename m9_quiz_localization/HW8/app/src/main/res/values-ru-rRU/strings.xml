@@ -1,0 +1,22 @@
+<resources>
+    <!-- Заголовки -->
+    <string name="app_name">QUIZapp-HW8</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="first_fragment_label">Вопросы</string>
+    <string name="second_fragment_label">Результат</string>
+
+    <!-- Кнопки -->
+    <string name="button_start">Начать</string>
+    <string name="next">Отправить</string>
+    <string name="previous">Назад</string>
+    <string name="again">Начать заново</string>
+    <string name="birthday">Дата рождения</string>
+
+    <!-- Текст -->
+    <string name="hello_first_fragment">Текст вопросов</string>
+    <string name="resultText">Текст результата</string>
+    <string name="wait_user_answer">Ожидаем вашего решения</string>
+    <string name="birthdayText">Дата рождения: </string>
+    <string name="enterBirthDay">Укажите вашу дату рождения</string>
+
+</resources>

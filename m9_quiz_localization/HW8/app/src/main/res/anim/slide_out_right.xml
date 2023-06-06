@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- Отползание окна с кнопкой заново после back-->
+    <translate
+        android:duration="3000"
+        android:fromXDelta="0"
+        android:toXDelta="50%" />
+    <alpha
+        android:duration="3000"
+        android:fromAlpha="1"
+        android:toAlpha="0" />
+</set>

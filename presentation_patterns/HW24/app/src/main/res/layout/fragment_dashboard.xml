@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/openAddCity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/openAddCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_city_text_btn"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:drawableStartCompat="@drawable/add_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/addCityMainWindow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:constraint_referenced_ids="enterNameCity, titleEnterCityCoordinates,addCityBackground,addCityWindow,enterLatitude,enterLongitude,addCityBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/addCityBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B3000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/addCityWindow"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/add_city_window"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleEnterCityCoordinates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_add_city_window"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/enterNameCity"
+        app:layout_constraintEnd_toEndOf="@id/addCityWindow"
+        app:layout_constraintStart_toStartOf="@id/addCityWindow"
+        app:layout_constraintTop_toTopOf="@id/addCityWindow" />
+
+    <EditText
+        android:id="@+id/enterNameCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:background="#C1C1C1"
+        android:gravity="center"
+        android:hint="@string/enter_city_name"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/enterLatitude"
+        app:layout_constraintEnd_toEndOf="@id/addCityWindow"
+        app:layout_constraintStart_toStartOf="@id/addCityWindow"
+        app:layout_constraintTop_toBottomOf="@id/titleEnterCityCoordinates" />
+
+    <EditText
+        android:id="@+id/enterLatitude"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:background="#C1C1C1"
+        android:gravity="center"
+        android:hint="@string/enter_latitude"
+        android:inputType="numberDecimal"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/addCityBtn"
+        app:layout_constraintStart_toStartOf="@+id/enterNameCity" />
+
+    <EditText
+        android:id="@+id/enterLongitude"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:background="#C1C1C1"
+        android:gravity="center"
+        android:hint="@string/enter_longitude"
+        android:inputType="numberDecimal"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/addCityBtn"
+        app:layout_constraintEnd_toEndOf="@+id/enterNameCity" />
+
+    <Button
+        android:id="@+id/addCityBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_city"
+        app:layout_constraintBottom_toBottomOf="@id/addCityWindow"
+        app:layout_constraintEnd_toEndOf="@id/addCityWindow"
+        app:layout_constraintStart_toStartOf="@id/addCityWindow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

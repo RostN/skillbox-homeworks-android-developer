@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HW24</string>
+    <string name="title_home">Search</string>
+    <string name="title_dashboard">Cities</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search_line">Enter your request</string>
+    <string name="add_city">Add city</string>
+    <string name="enter_latitude">Enter latitude</string>
+    <string name="enter_longitude">Enter longitude</string>
+    <string name="title_add_city_window">Enter coordinates of your city</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="add_city_text_btn">Add city</string>
+    <string name="code_text_toast">Added new city:</string>
+    <string name="code_text_lat">Latitude:</string>
+    <string name="code_text_lng">Longitude:</string>
+    <string name="title_city_name">City Name</string>
+    <string name="title_latitude">Latitude</string>
+    <string name="title_longitude">Longitude</string>
+    <string name="loading_data">…</string>
+    <string name="error_connect">Error connecting to the server, please try again later. Loading old data from local storage</string>
+    <string name="exit_text_empty_result">Trying to find a new city. Please wait a few moment</string>
+    <string name="city_name">City name</string>
+
+</resources>

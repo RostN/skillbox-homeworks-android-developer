@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".FirstFragment">
+        <!-- Вопрос №1 -->
+        <TextView
+            android:id="@+id/questOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_first_fragment"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@id/quest1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+        <!-- Ответ №1 -->
+        <TextView
+            android:id="@+id/answerOne"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/green"
+            android:textSize="14dp"
+            app:layout_constraintRight_toRightOf="@id/questOne"
+            app:layout_constraintTop_toBottomOf="@id/questOne" />
+        <!-- Варианты на вопросы №1 -->
+        <RadioGroup
+            android:id="@+id/quest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/questTwo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/questOne">
+
+            <RadioButton
+                android:id="@+id/q1a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/q1a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/q1a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/q1a4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5" />
+        </RadioGroup>
+        <!-- Вопрос №2 -->
+        <TextView
+            android:id="@+id/questTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_first_fragment"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@id/quest2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/quest1" />
+        <!-- Ответ на 2й вопрос -->
+        <TextView
+            android:id="@+id/answerTwo"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/green"
+            android:textSize="14dp"
+            app:layout_constraintRight_toRightOf="@id/questTwo"
+            app:layout_constraintTop_toBottomOf="@id/questTwo" />
+        <!-- Варианты на 2й вопрос -->
+        <RadioGroup
+            android:id="@+id/quest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/questTree"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/questTwo">
+
+            <RadioButton
+                android:id="@+id/q2a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/q2a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/q2a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/q2a4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4" />
+
+        </RadioGroup>
+        <!-- Вопрос №3 -->
+        <TextView
+            android:id="@+id/questTree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_first_fragment"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@id/quest3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/quest2" />
+        <!-- Ответ на вопрос №3 -->
+        <TextView
+            android:id="@+id/answerTree"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/green"
+            android:textSize="14dp"
+            app:layout_constraintRight_toRightOf="@id/questTree"
+            app:layout_constraintTop_toBottomOf="@id/questTree" />
+        <!-- Варианты на вопрос №3 -->
+        <RadioGroup
+            android:id="@+id/quest3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="42dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/button_first"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/answerTree">
+
+            <RadioButton
+                android:id="@+id/q3a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/q3a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <RadioButton
+                android:id="@+id/q3a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/q3a4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/button_second"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/quest3" />
+
+        <Button
+            android:id="@+id/button_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/previous"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/button_first" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

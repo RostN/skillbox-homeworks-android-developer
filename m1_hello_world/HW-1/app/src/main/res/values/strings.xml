@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HW-1</string>
+    <string name="title">Все места свободны</string>
+    <string name="resetButton">Сброс</string>
+</resources>
