@@ -1,9 +1,9 @@
-<h1>Задание №1 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m1_hello_world">m1_hello_world</a>)</h1>
+<h1>Задание №1 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m1_hello_world">m1_hello_world</a>)</h1>
 <H2>Цель задания</h2>
 Закрепить знания по текстовым полям и кнопкам. 
 <h3> Что нужно сделать</h3>
 Необходимо разработать небольшое приложение-счётчик для подсчёта пассажиров, входящих в автобус. Приложение должно иметь примерно следующий вид:
-<img src = "https://github.com/RostN/skillbox-homeworks/assets/133744981/69194823-727c-416f-97e6-903ca56c5267">
+<img src = "https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/69194823-727c-416f-97e6-903ca56c5267">
 <br>
 <ul>
 <li>Нажатие кнопок «+» и «-» изменяет значение счётчика и тестовых полей на «+1» и «-1» соответственно. Задавать значение меньше 0 нельзя.</li>
@@ -15,16 +15,16 @@
 </ul>
 
 
-<h1>Задание №2 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m2_layout">m2_layout</a>)</h1>
+<h1>Задание №2 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m2_layout">m2_layout</a>)</h1>
 <h2>Цель работы</h2>
 Потренироваться применять знания по основным ViewGroup.
 <br>
-<img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/b7a975b0-1f42-4bd8-8dab-f47987376b3c" width = 400>
+<img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/b7a975b0-1f42-4bd8-8dab-f47987376b3c" width = 400>
 <h3>Что нужно сделать</h3>
 Создайте CustomView по примерному шаблону какого-либо поста в соцсети (смотрите картинку), используя знания о ViewGroup.
 
 
-<h1>Задание №3 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m3_components">m3_components</a>) </h1>
+<h1>Задание №3 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m3_components">m3_components</a>) </h1>
 <h2> Цель домашнего задания </h2>
 Научиться применять различные базовые компоненты пользовательского интерфейса. Создать приложение таймер обратного отсчёта, используя TextView, ProgressBar, Button, SeekBar/Slider.
 <h3>Что нужно сделать</h3>
@@ -43,13 +43,13 @@
 После старта таймера некоторые компоненты лучше деактивировать, чтобы пользователь не мог нарушить работу программы.
 
 
-<h1> Задание №4 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m4_constraint">m4_constraint</a>) </h1>
+<h1> Задание №4 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m4_constraint">m4_constraint</a>) </h1>
 <h2> Цель работы </h2>
 Применить знания по верстке с помощью ConstraintLayout для создания типового макета мобильного приложения.
 <h3>Что нужно сделать</h3>
 Создайте экран по такому макету, используя только ConstraintLayout в качестве единственной ViewGroup.
 <br>
-<img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/4a59f6bf-05a8-4a95-a490-0889a94d7edb" height=400>
+<img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/4a59f6bf-05a8-4a95-a490-0889a94d7edb" height=400>
 <h3>Требования</h3><ul>
 <li>Все отступы, кроме отступа кнопки от картинки, равны 16 dp.</li
   <li>Кнопка Play имеет размеры 80х80.</li>
@@ -58,7 +58,7 @@
 <li>TextView «Исполнитель» и «Наименование композиции» выровнены по горизонтали относительно экрана.</li></ul>
 
 
-<h1> Задание №5 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m5_quiz_resources">m5_quiz_resources</a>) </h1>
+<h1> Задание №5 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m5_quiz_resources">m5_quiz_resources</a>) </h1>
 <h2> Цель практической работы</h2>
 Применить знания:
 <ui>
@@ -84,7 +84,7 @@
 </ul>
 
 
-<h1> Задание №6 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m7_quiz_fragments">m7_quiz_fragments</a>) </h1>
+<h1> Задание №6 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m7_quiz_fragments">m7_quiz_fragments</a>) </h1>
 <h2>Цели работы </h2>
 <li>Применить знания о работе с фрагментами и библиотекой AndroidX Navigation.
 <li>Потренироваться в проектировании навигации по приложению.
@@ -100,7 +100,7 @@
 <li>Добавьте в проект три экрана, создайте для них разметку и наполните данными. Используйте стили, темы и ресурсы, которые получились по результатам прошлых модулей.
 <li>Экран приветствия должен содержать минимальную информацию (собственно, приветствие), а также кнопку «Начать», которая должна переводить пользователя на следующий экран «Опрос».
 <li>Экран опроса должен представлять из себя опросник из трёх вопросов, данные для которого нужно взять из объекта QuizStorage. Если вы скопировали весь проект из модуля “Ресурсы проекта” в папку текущего модуля, то этот объект должен храниться по следующему пути:
-<br><img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/b71cb539-4b08-473b-8361-f3b4b293826b" width = 400>
+<br><img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/b71cb539-4b08-473b-8361-f3b4b293826b" width = 400>
 <br>Разметку для этого экрана реализуйте с помощью компонента ScrollView, который позволяет пролистывать экран. 
 <br>Добавьте в ScrollView необходимые View. Получите список вопросов и ответов и установите эти данные в соответствующие View.
 <br>При необходимости установите листенеры во View, чтобы иметь возможность обрабатывать ответы на вопросы.
@@ -131,7 +131,7 @@
 <li><a href="https://developer.android.com/guide/navigation/navigation-navigate#back-stack">Работа с backstack’om фрагментов.
   
   
-<h1> Задание №7 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m8_quiz_animation">m8_quiz_animation</a>) </h1>
+<h1> Задание №7 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m8_quiz_animation">m8_quiz_animation</a>) </h1>
 <h2> Цель работы</h2>
 Потренировать знания:
 <li>по созданию анимаций между компонентами;
@@ -152,7 +152,7 @@
 <li><a href="https://lottiefiles.com/featured">Готовые анимации для библиотеки Lottie.
 
   
-<h1> Задание №8 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m9_quiz_localization">m9_quiz_localization</a>) </h1>
+<h1> Задание №8 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m9_quiz_localization">m9_quiz_localization</a>) </h1>
 <h2> Цели практической работы</h2>
 Применить знания:
 <li>по переводу приложения на русский и английский языки;
@@ -170,7 +170,7 @@
   </ol>
 
 
-<h1> Задание №9 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m10_timer_life_cycle">m10_timer_life_cycle</a>) </h1>
+<h1> Задание №9 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m10_timer_life_cycle">m10_timer_life_cycle</a>) </h1>
 <h2>Цель практической работы </h2>
 
 Применить знания по жизненному циклу приложения и сохранению состояния при смене конфигурации.
@@ -183,7 +183,7 @@
 </ol>
 
 
-<h1> Задание №10 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m11_timer_data_storage">m11_timer_data_storage</a>) </h1>
+<h1> Задание №10 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m11_timer_data_storage">m11_timer_data_storage</a>) </h1>
 <h2>Цели практической работы </h2>
 Применить знания:
 <li>по сохранению данных в памяти устройства;
@@ -209,7 +209,7 @@
 </ol>
 
 
-<h1> Задание №11 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m12_mvvm">m12_mvvm</a>) </h1>
+<h1> Задание №11 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m12_mvvm">m12_mvvm</a>) </h1>
 <h2> Цели практической работы</h2>
 Применить знания по архитектуре MVVM, отработать сохранение и изменение состояния экрана через ViewModel.
 <h3>Что нужно сделать</h3>
@@ -222,7 +222,7 @@
 <li>Убедитесь, что после того, как поиск завершён, прогресс исчезает и отображается текст «По запросу <текст запроса> ничего не найдено».</ol>
 
 
-<h1> Задание №12 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m14_retrofit">m14_retrofit</a>) </h1>
+<h1> Задание №12 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m14_retrofit">m14_retrofit</a>) </h1>
 <h2>Цели практической работы </h2>
 <li>Применить знания по работе с сетью в Android.
 <li>Поработать с REST API, используя библиотеку Retrofit.
@@ -240,7 +240,7 @@ Cоздать приложение для загрузки и отображен
   </ol>
 
 
-<h1> Задание №13 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m15_room">m15_room</a>) </h1>
+<h1> Задание №13 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m15_room">m15_room</a>) </h1>
 <h2>Цель практической работы </h2>
 Применить знания по БД, SQL и Room.
 <h3>Что нужно сделать</h3>
@@ -258,7 +258,7 @@ Cоздать приложение для загрузки и отображен
 <li><a href="https://stackoverflow.com/questions/1751301/regex-match-entire-words-only">Для валидации вводимой пользователем последовательности можно воспользоваться регулярным выражением
 
   
-<h1> Задание №14 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m16_architecture">m16_architecture</a>) (Hilt)</h1>
+<h1> Задание №14 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m16_architecture">m16_architecture</a>) (Hilt)</h1>
 <h2> Цель практической работы</h2>
 Применить принципы чистой архитектуры при разработке реального Android-приложения.
 <h3>Что нужно сделать</h3>
@@ -267,7 +267,7 @@ Cоздать приложение для загрузки и отображен
 <li>Приложение должно быть разделено на слои.
 <li>Для связывания компонентов приложения между собой используйте Dagger или Hilt.</lI>
 <br>
-<img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/4a0f3108-57f4-4c94-9f18-29b16f2018e8" width=300>
+<img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/4a0f3108-57f4-4c94-9f18-29b16f2018e8" width=300>
 <ol>
   <li>Сверстайте экран, аналогичный тому, который показан на скриншоте.
   <li>Создайте интерфейс UsefulActivity в пакете entity с полями, соответствующими json из ответа API.
@@ -283,7 +283,7 @@ Cоздать приложение для загрузки и отображен
 </ol>
 
 
-<h1> Задание №15 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m17_recyclerview">m17_recyclerview</a>) </h1>
+<h1> Задание №15 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m17_recyclerview">m17_recyclerview</a>) </h1>
 <h2> Цели практической работы</h2>
 Потренироваться работать со списками.
 <h3>Что нужно сделать</h3>
@@ -300,7 +300,7 @@ Cоздать приложение для загрузки и отображен
 <br><br>Для регистрации заполните форму по адресу <a href="https://api.nasa.gov/#signUp">https://api.nasa.gov/#signUp</a>, указав имя, фамилию и адрес почты (данные могут быть анонимными). В результате откроется страница с указанным персональным ключом, который нужно будет использовать в качестве query-параметра для запроса, и примером использования этого ключа в запросе.
 <br><br>Для практической работы будем использовать Mars Rover Photos API. Его описание  можно найти на сайте <a href="https://api.nasa.gov/">https://api.nasa.gov/</a> (необходимо выбрать его из списка). 
 <br>
-  <img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/a327f239-5d07-4c9c-a1e1-b2753a3d90b3" width=500>
+  <img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/a327f239-5d07-4c9c-a1e1-b2753a3d90b3" width=500>
 <br>С помощью этого API можно загрузить фотографии, сделанные различными марсоходами. API находится по адресу https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos и принимает различные query-параметры. Подробное описание в документации к API на сайте.
 <br>Примеры запросов:
 <li>https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=YOUR_API_KEY — загрузка всех фотографий, сделанных ровером Curiosity за 1000 сол.
@@ -314,7 +314,7 @@ Cоздать приложение для загрузки и отображен
 <br>Вы можете открыть любой из запросов в браузере. Результатом будет json-строка, которая содержит загруженные данные. Для лучшей визуализации скопируйте полученный json в какой-нибудь json-парсер (например, http://json.parser.online.fr) и создайте класс, который будет описывать полученные данные.
 Для загрузки и отображения данных используйте шаблон MVVM.
 <li>Проанализируйте полученный класс и создайте разметку для элемента списка. Например, такую:
-  <img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/ce909b17-5b8b-4f9c-a70c-931b933822f1" width=300>
+  <img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/ce909b17-5b8b-4f9c-a70c-931b933822f1" width=300>
 <li>Создайте активити или фрагмент для отображения списка. Добавьте в разметку RecyclerView и установите необходимый LayoutManager.
 <li>Создайте Adapter и ViewHolder для отображения загруженных данных на UI. Реализуйте необходимые функции у адаптера и установите адаптер в RecyclerView. Для асинхронной загрузки изображений используйте библиотеку Glide. 
 <li>В результате у вас должен получиться прокручивающийся список, который отображает фотографии и информацию о них. Поэкспериментируйте с разными LayoutManagers.
@@ -327,7 +327,7 @@ Cоздать приложение для загрузки и отображен
 Помните, по умолчанию Paging Library загружает три страницы для плавности прокрутки. Для индикации того, что загрузка идёт постранично, можно использовать функцию delay(2000) в репозитории.
 
 
-<h1> Задание №16 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m18_permissions">m18_permissions</a>) </h1>
+<h1> Задание №16 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m18_permissions">m18_permissions</a>) </h1>
 <h2> Цель практической работы</h2>
 Применить знания по Permissions и научиться работать с камерой.
 <h3>Что нужно сделать</h3>
@@ -346,7 +346,7 @@ Cоздать приложение для загрузки и отображен
 <li>Не забудьте указать в Manifest необходимые permissions и запросить у пользователя разрешения, используя ResultAPI.
 
   
-<h1> Задание №17 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m19_location">m19_location</a>) </h1>
+<h1> Задание №17 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m19_location">m19_location</a>) </h1>
 <h2> Цель практической работы</h2>
 Применить знания по Location и научиться работать с картой.
 <h3>Что нужно сделать</h3>
@@ -360,7 +360,7 @@ Cоздать приложение для загрузки и отображен
 </ol>
 
 
-<h1> Задание №18 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/m20_firebase">m20_firebase</a>) </h1>
+<h1> Задание №18 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/m20_firebase">m20_firebase</a>) </h1>
 <h2>Цели практической работы  </h2>
 <li>Применить знания о работе с Firebase к проекту.
 <li>Закрепить на практике принципы работы с сервисом Crashlytics и уведомлениями, сообщениями от сервиса Firebase.
@@ -380,7 +380,7 @@ Cоздать приложение для загрузки и отображен
 <li>скачайте полученный файл google-services.json и добавьте его в проект, в папку app (или аналогичную; ориентиром может служить файл build.gradle уровня приложения, а не проекта);
 <li>если ранее вы уже регистрировали приложение, то повторно найти и скачать файл google-services.json можно в разделе Project Settings.
   <br>
-  <img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/3bbe7b04-9e24-4386-86ec-33b424ef9b56" width = 400>
+  <img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/3bbe7b04-9e24-4386-86ec-33b424ef9b56" width = 400>
   </ul>
 <li>Подключите необходимые библиотеки и плагины в файлах build.gradle уровня приложения и уровня проекта в соответствии с инструкцией (найдите её в консоли разработчика при создании проекта).
 <br>Если у вас возникает ошибка, связанная с репозиторием Google, попробуйте удалить этот репозиторий из секции allProjects в файле build.gradle уровня проекта. Если это не поможет — обратитесь за помощью в конфигурации к проверяющему куратору.
@@ -398,25 +398,25 @@ Cоздать приложение для загрузки и отображен
   </ol>
 
 
-<h1> Задание №19 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/views_and_animations">views_and_animations</a>) </h1>
+<h1> Задание №19 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/views_and_animations">views_and_animations</a>) </h1>
 <h2> Цель домашнего задания</h2>
 Научиться разрабатывать собственные View.
 <h3>Что нужно сделать</h3>
 Реализуйте приложение «Таймер».
 <li>Для визуализации посередине экрана должны отображаться аналоговые часы, которые показывают текущее состояние таймера.
 <li>Также добавьте на экран текстовое поле, которое отображает текущее время в формате ЧЧ:ММ:CC.  
-<br><img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/ac7acea1-01d6-419a-b72e-5d9c146160b4" width=300>
+<br><img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/ac7acea1-01d6-419a-b72e-5d9c146160b4" width=300>
 <li>У приложения есть кнопки «Старт»/«Стоп» + «Сброс».
 <li>При нажатии на «Старт» виджет начинает отсчитывать время, при нажатии паузы ― останавливается.
 <li>Сброс задаёт значение, равное 0, и ставит виджет на паузу.
 
 
-<h1> Задание №20 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/recyclerview_advanced">recyclerview_advanced</a>) </h1>
+<h1> Задание №20 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/recyclerview_advanced">recyclerview_advanced</a>) </h1>
 <h2> Цель домашнего задания</h2>
 Научиться работать с пагинацией в RecyclerView.
 Что нужно сделать
 Реализуйте приложение с отображением персонажей из мультсериала Rick and Morty.
-<br><img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/9bb7a486-e1fe-418d-80b0-2a126fed0139" wigth=300>
+<br><img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/9bb7a486-e1fe-418d-80b0-2a126fed0139" wigth=300>
 <br>Данные должны загружаться постранично.
 <h3>Советы и рекомендации</h3>
 При работе используйте следующие материалы:
@@ -425,7 +425,7 @@ Cоздать приложение для загрузки и отображен
 <li>Codelab от Google для пагинации.
 
 
-<h1> Задание №21 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/jetpack_compose">jetpack_compose</a>) </h1>
+<h1> Задание №21 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/jetpack_compose">jetpack_compose</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Освоить работу с Jetpack Compose и потренироваться с новым вариантом пагинации.
 <h3>Что нужно сделать</h3>
@@ -437,7 +437,7 @@ Cоздать приложение для загрузки и отображен
 <li>Реализуйте ещё одну вкладку в приложении, в которой загрузите с помощью пагинации список доступных локаций.
 <li>Сверстайте окно деталей о персонаже с загрузкой данных по сети (в списке персонажей приходят необходимые для загрузки деталей ссылки).
   <br>
-  <img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/3f33f7dc-419d-4770-bb0e-9d64ed2aada6" width=500></ol>
+  <img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/3f33f7dc-419d-4770-bb0e-9d64ed2aada6" width=500></ol>
   <h3>Советы и рекомендации</h3>
 При работе используйте следующие материалы:
 <li><a href="https://rickandmortyapi.com/">Общее описание API.</a>
@@ -447,7 +447,7 @@ Cоздать приложение для загрузки и отображен
   <li><a href="https://developer.android.com/codelabs/jetpack-compose-state#0">— Использование состояний.</ol></a>
 
 
-<h1> Задание №22 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/dependency_injection">dependency_injection</a>) </h1>
+<h1> Задание №22 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/dependency_injection">dependency_injection</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Освоить работу с Dagger и Koin.
 <h3>Что нужно сделать</h3>
@@ -455,7 +455,7 @@ Cоздать приложение для загрузки и отображен
 <br><br>
 Велосипед конструируется по следующей схеме:
 <br>
-<img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/9b31643e-2cef-4f84-81d5-02863dfdb766" width=800>
+<img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/9b31643e-2cef-4f84-81d5-02863dfdb766" width=800>
 <br>Приложение должно реализовать инициализацию производственной цепочки велосипедов согласно представленной схеме. Для проверки работы приложения достаточно реализовать две кнопки — Dagger и Koin:
 <li>Нажатие на кнопку Dagger обращается к DI Dagger, получает у него фабрику велосипедов, конструирует велосипед со случайными параметрами.
 <li>Нажатие на кнопку Koin обращается к DI Koin, получает у него фабрику велосипедов, конструирует велосипед со случайными параметрами.
@@ -476,7 +476,7 @@ Cоздать приложение для загрузки и отображен
 <li><a href="https://youtu.be/ZZ_qek0hGkM">Хорошее последовательное описание использования DI на примере Dagger.</a>
 
 
-<h1> Задание №23 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/background_works">background_works</a>) </h1>
+<h1> Задание №23 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/background_works">background_works</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Научиться запускать и тестировать задачи, выполняемые в фоне.
 <h3>Что нужно сделать</h3>
@@ -486,7 +486,7 @@ Cоздать приложение для загрузки и отображен
 <li>В расчётное время утра устройство должно издать звук будильника.
 
   
-<h1> Задание №24 (<a href="https://github.com/RostN/skillbox-homeworks/tree/main/presentation_patterns">presentation_patterns</a>) </h1>
+<h1> Задание №24 (<a href="https://github.com/RostN/skillbox-homeworks-android-developer/tree/main/presentation_patterns">presentation_patterns</a>) </h1>
 <h2>Цель домашнего задания </h2>
 Реализовать приложение с помощью MVVM-архитектуры.
 <h3>Что нужно сделать</h3>
@@ -500,11 +500,11 @@ Cоздать приложение для загрузки и отображен
 <li>Если API недоступно, но данный город ранее уже был загружен, у пользователя есть возможность посмотреть ранее загруженную информацию.
 <li>Если погода ни разу не была получена, об этом на экран выводится соответствующее уведомление.
   </ol>
-  <br><img src="https://github.com/RostN/skillbox-homeworks/assets/133744981/ff790d78-2263-4563-b066-cbdc6d3e40fd" width = 600>
+  <br><img src="https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/ff790d78-2263-4563-b066-cbdc6d3e40fd" width = 600>
 <li>Экран деталей о погоде. Экран отображает данные, получаемые по API или из базы данных, в зависимости от того, что на текущий момент доступно.
-  <br><img src = "https://github.com/RostN/skillbox-homeworks/assets/133744981/f7c77a26-9cad-4aa6-9a74-6148e82fc26c" width = 300>
+  <br><img src = "https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/f7c77a26-9cad-4aa6-9a74-6148e82fc26c" width = 300>
 <li>Экран сохранённых данных. Здесь есть возможность посмотреть весь список предзагруженных городов, перейти внутрь и посмотреть погоду.
-  <br><img src = "https://github.com/RostN/skillbox-homeworks/assets/133744981/ee517428-20dc-4698-9d47-3a450fdda603" width=300></ol>
+  <br><img src = "https://github.com/RostN/skillbox-homeworks-android-developer/assets/133744981/ee517428-20dc-4698-9d47-3a450fdda603" width=300></ol>
   <h4>Важные функции приложения:</h4>
 <ol>
 <li>Экран поиска сохраняет данные последнего поиска в поле ввода (используйте для этого SharedPrefs) и отображает их, пока пользователь не ввёл ни одного символа. При нажатии на предыдущий поиск подставляет значение в поле ввода и начинает искать актуальную погоду.
